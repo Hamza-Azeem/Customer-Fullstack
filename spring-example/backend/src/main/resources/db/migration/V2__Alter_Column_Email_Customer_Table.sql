@@ -1,0 +1,2 @@
+ALTER TABLE customer
+ADD CONSTRAINT UQ_email UNIQUE(email);
